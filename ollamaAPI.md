@@ -2,7 +2,7 @@
 ## Setting up Ollama
 To start, follow the installation and setup instructions from the Ollama website. Ollama runs as a service, exposing a REST API on a localhost port. Once installed, you can invoke ollama run <modelname> to talk to this model; the model is downloaded and cached the first time it's requested.
 
-In this post, we'll be talking to the llama3 model, so run ollama run llama3.
+In this post, we'll be talking to the `llama3.1` model, so run `ollama run llama3.1`.
 ## Manually invoking the REST API
 ollama runs in the background and exposes a REST API on port 11434. We can talk to it "manually" using curl commands:
 ## Generate Embeddings
